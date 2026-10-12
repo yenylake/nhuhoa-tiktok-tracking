@@ -83,8 +83,9 @@ h2::before{content:"";display:inline-block;width:6px;height:18px;background:var(
 .tbl td:first-child,.tbl td:nth-child(2){text-align:left}
 .tbl tr:last-child td{border-bottom:0}
 .tbl tr.muted td{color:var(--ink-3)}
-.rank{font-weight:800;color:var(--ink-3);width:52px;white-space:nowrap}
-.hot{display:inline-block;margin-right:4px;font-size:16px;animation:flick 1.6s ease-in-out infinite}
+.rank{font-weight:800;color:var(--ink-3);width:56px;min-width:56px;white-space:nowrap}
+.rk{display:inline-flex;align-items:center;gap:3px;flex-wrap:nowrap;white-space:nowrap}
+.hot{display:inline-block;font-size:15px;line-height:1;flex:none;animation:flick 1.6s ease-in-out infinite}
 .rank.top{color:var(--bad)}
 @keyframes flick{50%{transform:scale(1.15) rotate(-6deg)}}
 .ch{display:flex;align-items:center;gap:10px;min-width:220px}
@@ -308,7 +309,7 @@ function renderTable() {
       const cell = (k) => s ? `<span class="num">${fmt(s[k])}</span>${delta(s[k], ps?.[k])}` : '–';
       const lpv = s && s.videos ? fmt(Math.round(s.hearts / s.videos)) : '–';
       const last = s ? '' : `<span class="tag">${statusTag[c.status] || ''}</span>`;
-      return `<tr class="${p ? '' : 'muted'}"><td class="rank ${hot.has(c.dept) ? 'top' : ''}">${hot.has(c.dept) ? '<span class="hot" data-tip="Top 5 kênh nhiều follower nhất">🔥</span>' : ''}${p ? i + 1 : ''}</td>
+      return `<tr class="${p ? '' : 'muted'}"><td class="rank ${hot.has(c.dept) ? 'top' : ''}"><span class="rk">${hot.has(c.dept) ? '<span class="hot" data-tip="Top 5 kênh nhiều follower nhất">🔥</span>' : ''}${p ? i + 1 : ''}</span></td>
         <td><div class="ch"><div class="av">${av}</div><div>${title}<span class="dept">${esc(c.dept)}</span></div></div></td>
         <td>${cell('followers')}</td><td>${cell('hearts')}</td><td>${s ? cell('videos') : last}</td><td>${lpv}</td>
         <td><span class="num">${postedCount(c)}</span><span class="d" style="color:var(--ink-3)">/${DATA.dates.length} ngày</span></td></tr>`;
