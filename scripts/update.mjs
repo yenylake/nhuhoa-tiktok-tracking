@@ -49,11 +49,12 @@ async function readSheet() {
     if (m) dates.push({ col: c, key: `${m[1].padStart(2, '0')}/${m[2].padStart(2, '0')}`, dow: m[3] || '' });
   }
 
+  const links = await readHyperlinks();
   const channels = [];
   for (const r of rows.slice(headIdx + 2)) {
     if (!/^\d+$/.test((r[0] || '').trim())) continue;
     const raw = (r[2] || '').trim();
-    const urls = raw.match(/https?:\/\/\S+/g) || [];
+    const urls = [...(links[r[0].trim()] || []), ...(raw.match(/https?:\/\/\S+/g) || [])];
     const name = raw.replace(/https?:\/\/\S+/g, '').replace(/\s+/g, ' ').trim();
     const posts = {};
     for (const d of dates) posts[d.key] = /✓|✔|x|v/i.test((r[d.col] || '').trim());
@@ -63,6 +64,27 @@ async function readSheet() {
     });
   }
   return { period: (titleRow?.[0] || '').split(':').slice(1).join(':').trim(), dates: dates.map(({ key, dow }) => ({ key, dow })), channels };
+}
+
+// Link gắn vào chữ (hyperlink) không có trong CSV → đọc bản HTML của Sheet, gom link TikTok theo STT
+async function readHyperlinks() {
+  const out = {};
+  try {
+    const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/htmlview/sheet?headers=true&gid=${GID}`;
+    const html = await (await fetch(url, { headers: { 'User-Agent': UA } })).text();
+    for (const tr of html.split(/<tr[\s>]/).slice(1)) {
+      const cells = tr.split(/<td[\s>]/).slice(1);
+      const stt = (cells[0] || '').replace(/<[^>]*>/g, '').replace(/^[^>]*>/, '').trim();
+      if (!/^\d+$/.test(stt)) continue;
+      const hrefs = [...(cells[2] || '').matchAll(/href="([^"]+)"/g)].map((m) => {
+        const h = m[1].replace(/&amp;/g, '&');
+        const q = h.match(/[?&]q=([^&]+)/);
+        return q ? decodeURIComponent(q[1]) : h;
+      }).filter((h) => /tiktok\.com/i.test(h));
+      if (hrefs.length) out[stt] = hrefs;
+    }
+  } catch (e) { console.warn('Không đọc được hyperlink:', e.message); }
+  return out;
 }
 
 async function handleFromUrl(u) {
