@@ -83,7 +83,10 @@ h2::before{content:"";display:inline-block;width:6px;height:18px;background:var(
 .tbl td:first-child,.tbl td:nth-child(2){text-align:left}
 .tbl tr:last-child td{border-bottom:0}
 .tbl tr.muted td{color:var(--ink-3)}
-.rank{font-weight:800;color:var(--ink-3);width:28px}
+.rank{font-weight:800;color:var(--ink-3);width:52px;white-space:nowrap}
+.hot{display:inline-block;margin-right:4px;font-size:16px;animation:flick 1.6s ease-in-out infinite}
+.rank.top{color:var(--bad)}
+@keyframes flick{50%{transform:scale(1.15) rotate(-6deg)}}
 .ch{display:flex;align-items:center;gap:10px;min-width:220px}
 .av{width:38px;height:38px;border-radius:50%;flex:none;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;font-weight:700;overflow:hidden;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--line)}
 .av img{width:100%;height:100%;object-fit:cover}
@@ -286,6 +289,10 @@ const COLS = [
 const val = (c, k) => k === 'posted' ? postedCount(c) : k === 'lpv' ? (c.profile && c.profile.stats.videos ? c.profile.stats.hearts / c.profile.stats.videos : -1) : k === 'name' ? (c.name || c.dept) : c.profile ? c.profile.stats[k] : -1;
 
 function renderTable() {
+  // Top 5 kênh nhiều follower nhất (hoà thì xét lượt thích) → gắn icon lửa
+  const hot = new Set(DATA.channels.filter((c) => c.profile)
+    .sort((a, b) => b.profile.stats.followers - a.profile.stats.followers || b.profile.stats.hearts - a.profile.stats.hearts)
+    .slice(0, 5).map((c) => c.dept));
   const rows = [...DATA.channels].sort((a, b) => {
     if (!!a.profile !== !!b.profile && sortKey !== 'posted' && sortKey !== 'name') return a.profile ? -1 : 1;
     const x = val(a, sortKey), y = val(b, sortKey);
@@ -301,7 +308,7 @@ function renderTable() {
       const cell = (k) => s ? `<span class="num">${fmt(s[k])}</span>${delta(s[k], ps?.[k])}` : '–';
       const lpv = s && s.videos ? fmt(Math.round(s.hearts / s.videos)) : '–';
       const last = s ? '' : `<span class="tag">${statusTag[c.status] || ''}</span>`;
-      return `<tr class="${p ? '' : 'muted'}"><td class="rank">${p ? i + 1 : ''}</td>
+      return `<tr class="${p ? '' : 'muted'}"><td class="rank ${hot.has(c.dept) ? 'top' : ''}">${hot.has(c.dept) ? '<span class="hot" data-tip="Top 5 kênh nhiều follower nhất">🔥</span>' : ''}${p ? i + 1 : ''}</td>
         <td><div class="ch"><div class="av">${av}</div><div>${title}<span class="dept">${esc(c.dept)}</span></div></div></td>
         <td>${cell('followers')}</td><td>${cell('hearts')}</td><td>${s ? cell('videos') : last}</td><td>${lpv}</td>
         <td><span class="num">${postedCount(c)}</span><span class="d" style="color:var(--ink-3)">/${DATA.dates.length} ngày</span></td></tr>`;
