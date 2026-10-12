@@ -1,5 +1,11 @@
 {
  "2026-10-12": {
+  "Truyền thông MKT": {
+   "followers": 26,
+   "following": 41,
+   "hearts": 160,
+   "videos": 3
+  },
   "Sales tư vấn": {
    "followers": 26,
    "following": 3,
@@ -22,6 +28,24 @@
    "followers": 336,
    "following": 23,
    "hearts": 82,
+   "videos": 7
+  },
+  "Da liễu": {
+   "followers": 33,
+   "following": 28,
+   "hearts": 119,
+   "videos": 5
+  },
+  "Kế toán": {
+   "followers": 39,
+   "following": 60,
+   "hearts": 143,
+   "videos": 4
+  },
+  "HR": {
+   "followers": 28,
+   "following": 9,
+   "hearts": 147,
    "videos": 6
   }
  }
