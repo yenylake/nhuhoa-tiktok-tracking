@@ -1,0 +1,470 @@
+{
+ "updatedAt": "2026-10-12T09:03:35.986Z",
+ "period": "",
+ "dates": [
+  {
+   "key": "08/10",
+   "dow": "Th 5"
+  },
+  {
+   "key": "09/10",
+   "dow": "Th 6"
+  },
+  {
+   "key": "10/10",
+   "dow": "Th 7"
+  },
+  {
+   "key": "12/10",
+   "dow": "Th 2"
+  },
+  {
+   "key": "13/10",
+   "dow": "Th 3"
+  },
+  {
+   "key": "14/10",
+   "dow": "Th 4"
+  },
+  {
+   "key": "15/10",
+   "dow": "Th 5"
+  },
+  {
+   "key": "16/10",
+   "dow": "Th 6"
+  },
+  {
+   "key": "17/10",
+   "dow": "Th 7"
+  },
+  {
+   "key": "19/10",
+   "dow": "Th 2"
+  },
+  {
+   "key": "20/10",
+   "dow": "Th 3"
+  },
+  {
+   "key": "21/10",
+   "dow": "Th 4"
+  },
+  {
+   "key": "22/10",
+   "dow": "Th 5"
+  },
+  {
+   "key": "23/10",
+   "dow": "Th 6"
+  },
+  {
+   "key": "24/10",
+   "dow": "Th 7"
+  },
+  {
+   "key": "26/10",
+   "dow": "Th 2"
+  },
+  {
+   "key": "27/10",
+   "dow": "Th 3"
+  },
+  {
+   "key": "28/10",
+   "dow": "Th 4"
+  },
+  {
+   "key": "29/10",
+   "dow": "Th 5"
+  },
+  {
+   "key": "30/10",
+   "dow": "Th 6"
+  },
+  {
+   "key": "31/10",
+   "dow": "Th 7"
+  }
+ ],
+ "channels": [
+  {
+   "stt": 1,
+   "dept": "Truyền thông MKT",
+   "name": "Khu tự trị NH",
+   "plan": "",
+   "posts": {
+    "08/10": false,
+    "09/10": true,
+    "10/10": true,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": null,
+   "url": null,
+   "status": "not-found",
+   "profile": null
+  },
+  {
+   "stt": 2,
+   "dept": "Sales tư vấn",
+   "name": "salesotsoat",
+   "plan": "",
+   "posts": {
+    "08/10": false,
+    "09/10": true,
+    "10/10": false,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": "salesotsoat",
+   "url": "https://www.tiktok.com/@salesotsoat",
+   "status": "ok",
+   "profile": {
+    "handle": "salesotsoat",
+    "nickname": "Sale Sột Soạt",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/cb80a5a59d1dd7b270c55a876f28f13d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=238e37c0&x-expires=1791968400&x-signature=dzDfOen70EKw5Pp0%2FoCJ4P%2B%2Fz6w%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "bio": "",
+    "verified": false,
+    "stats": {
+     "followers": 26,
+     "following": 3,
+     "hearts": 75,
+     "videos": 2
+    }
+   }
+  },
+  {
+   "stt": 3,
+   "dept": "Telesales",
+   "name": "Như Hoa Có Gì",
+   "plan": "",
+   "posts": {
+    "08/10": true,
+    "09/10": true,
+    "10/10": false,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": null,
+   "url": null,
+   "status": "not-found",
+   "profile": null
+  },
+  {
+   "stt": 4,
+   "dept": "Phòng Mổ",
+   "name": "",
+   "plan": "",
+   "posts": {
+    "08/10": false,
+    "09/10": true,
+    "10/10": true,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": "v.khun.club",
+   "url": "https://www.tiktok.com/@v.khun.club",
+   "status": "ok",
+   "profile": {
+    "handle": "v.khun.club",
+    "nickname": "Vô khuẩn club",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/92d172953d53b9b0671ccd55da05f68b~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=1241c173&x-expires=1791968400&x-signature=LHu4OhLlHUiAi5gnQxTC5GxHVgg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "bio": "",
+    "verified": false,
+    "stats": {
+     "followers": 26,
+     "following": 7,
+     "hearts": 75,
+     "videos": 3
+    }
+   }
+  },
+  {
+   "stt": 5,
+   "dept": "CSKH",
+   "name": "Đi làm có gì vuiii",
+   "plan": "PLANT CONTENT XÂY TIKTOK - CSKH",
+   "posts": {
+    "08/10": true,
+    "09/10": true,
+    "10/10": false,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": "dilamcogivuiiiiiiii",
+   "url": "https://www.tiktok.com/@dilamcogivuiiiiiiii",
+   "status": "ok",
+   "profile": {
+    "handle": "dilamcogivuiiiiiiii",
+    "nickname": "Đi Làm Có Gì Vui",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/615044058f6fb332b8764b3663e9fd30~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=4421ac5c&x-expires=1791968400&x-signature=EtnqsnCzCsVABl9zq7MgKyzaFl8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "bio": "",
+    "verified": false,
+    "stats": {
+     "followers": 17,
+     "following": 1,
+     "hearts": 7,
+     "videos": 2
+    }
+   }
+  },
+  {
+   "stt": 6,
+   "dept": "Partnership",
+   "name": "Nhà Pát Đi Làm",
+   "plan": "PLAN CONTENT KÊNH TIKTOK “NHÀ PÁT ĐI LÀM”",
+   "posts": {
+    "08/10": false,
+    "09/10": true,
+    "10/10": true,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": "nhapatdilam",
+   "url": "https://www.tiktok.com/@nhapatdilam",
+   "status": "ok",
+   "profile": {
+    "handle": "nhapatdilam",
+    "nickname": "Nhà Pát Đi Làm",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/020fc627b062c2b3b1029dab2636b27a~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=5f9980ce&x-expires=1791968400&x-signature=Dxu77zKrcpSCZ9heX9uJyfNEaDw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "bio": "Nơi bạn vừa đẹp vừa hạnh phúc",
+    "verified": false,
+    "stats": {
+     "followers": 336,
+     "following": 23,
+     "hearts": 82,
+     "videos": 6
+    }
+   }
+  },
+  {
+   "stt": 7,
+   "dept": "Nha khoa",
+   "name": "",
+   "plan": "",
+   "posts": {
+    "08/10": false,
+    "09/10": false,
+    "10/10": false,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": null,
+   "url": null,
+   "status": "no-channel",
+   "profile": null
+  },
+  {
+   "stt": 8,
+   "dept": "Da liễu",
+   "name": "Hội chị em da dẻ",
+   "plan": "",
+   "posts": {
+    "08/10": true,
+    "09/10": true,
+    "10/10": false,
+    "12/10": false,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": null,
+   "url": null,
+   "status": "not-found",
+   "profile": null
+  },
+  {
+   "stt": 9,
+   "dept": "Kế toán",
+   "name": "Bốn cô cân sổ",
+   "plan": "",
+   "posts": {
+    "08/10": false,
+    "09/10": true,
+    "10/10": true,
+    "12/10": true,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": null,
+   "url": null,
+   "status": "not-found",
+   "profile": null
+  },
+  {
+   "stt": 10,
+   "dept": "HR",
+   "name": "Life of Như Hoa",
+   "plan": "",
+   "posts": {
+    "08/10": true,
+    "09/10": true,
+    "10/10": true,
+    "12/10": true,
+    "13/10": false,
+    "14/10": false,
+    "15/10": false,
+    "16/10": false,
+    "17/10": false,
+    "19/10": false,
+    "20/10": false,
+    "21/10": false,
+    "22/10": false,
+    "23/10": false,
+    "24/10": false,
+    "26/10": false,
+    "27/10": false,
+    "28/10": false,
+    "29/10": false,
+    "30/10": false,
+    "31/10": false
+   },
+   "handle": null,
+   "url": null,
+   "status": "not-found",
+   "profile": null
+  }
+ ]
+}

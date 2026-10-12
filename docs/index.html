@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikTok Tracking – Thẩm mỹ Như Hoa</title>
+<meta name="description" content="Theo dõi các kênh TikTok nội bộ của Thẩm mỹ Như Hoa – cập nhật 10:00 hằng ngày">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230054A3'/><path d='M9 23V9l14 14V9' stroke='%23FFBD00' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --brand:#0054A3; --brand-deep:#003C78; --brand-soft:#E6EFF8;
+  --gold:#FFBD00; --gold-soft:#FFF4D1;
+  --bg:#F3F6FA; --surface:#FFFFFF; --line:#E1E7EF;
+  --ink:#0F1E33; --ink-2:#4A5A70; --ink-3:#8392A6;
+  --good:#1E8E4F; --bad:#C8372D;
+  --bar:#0054A3; --cell-on:#0054A3; --cell-off:#EEF2F7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --brand:#4D9BE6; --brand-deep:#0B2A4D; --brand-soft:#132A44;
+    --gold:#FFC933; --gold-soft:#3A3010;
+    --bg:#0B1220; --surface:#121B2C; --line:#22304A;
+    --ink:#EAF0F8; --ink-2:#A9B6C8; --ink-3:#6F7F96;
+    --good:#4CC384; --bad:#F07167;
+    --bar:#4D9BE6; --cell-on:#4D9BE6; --cell-off:#1B263A;
+  }
+}
+:root[data-theme="dark"]{
+  --brand:#4D9BE6; --brand-deep:#0B2A4D; --brand-soft:#132A44;
+  --gold:#FFC933; --gold-soft:#3A3010;
+  --bg:#0B1220; --surface:#121B2C; --line:#22304A;
+  --ink:#EAF0F8; --ink-2:#A9B6C8; --ink-3:#6F7F96;
+  --good:#4CC384; --bad:#F07167;
+  --bar:#4D9BE6; --cell-on:#4D9BE6; --cell-off:#1B263A;
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Be Vietnam Pro",system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+header{background:linear-gradient(120deg,#003C78 0%,#0054A3 60%,#0A6BC4 100%);color:#fff;padding:28px 0 76px;position:relative;overflow:hidden}
+header::after{content:"";position:absolute;right:-80px;top:-120px;width:360px;height:360px;border-radius:50%;border:40px solid rgba(255,189,0,.18)}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;position:relative;z-index:1}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{width:48px;height:48px;border-radius:12px;background:#fff;display:grid;place-items:center;flex:none}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#FFBD00;font-weight:700}
+h1{font-size:clamp(22px,3.4vw,32px);font-weight:800;line-height:1.2}
+.live{display:flex;flex-direction:column;align-items:flex-end;gap:6px;font-size:13px}
+.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:6px 12px;border-radius:999px;font-weight:600}
+.dot{width:8px;height:8px;border-radius:50%;background:#3EE07F;box-shadow:0 0 0 0 rgba(62,224,127,.7);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(62,224,127,0)}100%{box-shadow:0 0 0 0 rgba(62,224,127,0)}}
+.live small{opacity:.85}
+
+main{margin-top:-52px;position:relative;z-index:2;padding-bottom:48px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 6px 20px rgba(0,40,90,.06)}
+.kpi .lbl{font-size:12.5px;color:var(--ink-2);font-weight:500}
+.kpi .val{font-size:28px;font-weight:800;letter-spacing:-.02em;margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi .sub{font-size:12.5px;color:var(--ink-3);margin-top:2px}
+.kpi.accent{border-top:4px solid var(--gold)}
+.up{color:var(--good);font-weight:600}.down{color:var(--bad);font-weight:600}
+
+section{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.sh{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+h2{font-size:18px;font-weight:700}
+h2::before{content:"";display:inline-block;width:6px;height:18px;background:var(--gold);border-radius:3px;margin-right:10px;vertical-align:-3px}
+.hint{font-size:13px;color:var(--ink-3)}
+.seg{display:inline-flex;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:3px}
+.seg button{border:0;background:none;font:inherit;font-size:13px;font-weight:600;color:var(--ink-2);padding:6px 12px;border-radius:7px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--brand);color:#fff}
+
+.grid2{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;margin-top:22px}
+.grid2 section{margin-top:0}
+
+/* channel table */
+.tbl{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.tbl th{font-size:12px;font-weight:600;color:var(--ink-3);text-align:right;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none}
+.tbl th:first-child,.tbl th:nth-child(2){text-align:left}
+.tbl th[aria-sort] {color:var(--brand)}
+.tbl td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:right;vertical-align:middle}
+.tbl td:first-child,.tbl td:nth-child(2){text-align:left}
+.tbl tr:last-child td{border-bottom:0}
+.tbl tr.muted td{color:var(--ink-3)}
+.rank{font-weight:800;color:var(--ink-3);width:28px}
+.ch{display:flex;align-items:center;gap:10px;min-width:220px}
+.av{width:38px;height:38px;border-radius:50%;flex:none;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;font-weight:700;overflow:hidden;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--line)}
+.av img{width:100%;height:100%;object-fit:cover}
+.ch b{display:block;font-weight:600;line-height:1.25}
+.ch span{font-size:12.5px;color:var(--ink-3)}
+.ch a{text-decoration:none}.ch a:hover b{color:var(--brand);text-decoration:underline}
+.dept{display:inline-block;margin-left:6px;font-size:11.5px;font-weight:600;background:var(--gold-soft);color:var(--ink);padding:2px 8px;border-radius:6px;margin-top:2px}
+.num{font-weight:600}
+.d{display:block;font-size:11.5px;font-weight:600}
+.tag{font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--cell-off);color:var(--ink-2);white-space:nowrap}
+.tblwrap{overflow-x:auto;margin:0 -20px;padding:0 20px}
+
+/* bars */
+.bars{display:flex;flex-direction:column;gap:10px}
+.bar{display:grid;grid-template-columns:130px 1fr 60px;gap:10px;align-items:center;font-size:13px}
+.bar .n{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-2)}
+.bar .t{height:14px;background:var(--cell-off);border-radius:0 4px 4px 0;position:relative}
+.bar .f{height:100%;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px;transition:width .6s}
+.bar .v{font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.bar:hover .f{filter:brightness(1.15)}
+
+/* trend */
+#trend{width:100%;height:auto;display:block}
+.trend-empty{height:220px;display:grid;place-items:center;color:var(--ink-3);font-size:13.5px;text-align:center;border:1px dashed var(--line);border-radius:12px;padding:16px}
+
+/* heatmap */
+.hm{overflow-x:auto;margin:0 -20px;padding:0 20px}
+.hm table{border-collapse:separate;border-spacing:3px;font-size:12px}
+.hm th{font-weight:600;color:var(--ink-3);padding:2px 4px;white-space:nowrap;line-height:1.2}
+.hm th.today{color:var(--brand)}
+.hm td.name{white-space:nowrap;padding-right:10px;font-weight:600;color:var(--ink-2);font-size:13px}
+.hm td.c{width:30px;height:30px;border-radius:6px;background:var(--cell-off);text-align:center;color:#fff;font-weight:700}
+.hm td.c.on{background:var(--cell-on)}
+.hm td.c.future{background:transparent;box-shadow:inset 0 0 0 1px var(--line)}
+.hm td.tot{font-weight:700;padding-left:8px;font-variant-numeric:tabular-nums}
+.hm tfoot td{font-weight:700;text-align:center;color:var(--ink-2)}
+.legend{display:flex;gap:16px;font-size:12.5px;color:var(--ink-2);margin-top:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:6px}
+
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--surface);font-size:12.5px;padding:7px 10px;border-radius:8px;opacity:0;transition:opacity .12s;z-index:50;white-space:nowrap}
+footer{color:var(--ink-3);font-size:12.5px;text-align:center;padding:8px 16px 32px}
+.err{background:var(--gold-soft);border:1px solid var(--gold);padding:12px 16px;border-radius:12px;margin-top:16px;font-size:14px}
+
+@media (max-width:960px){.kpis{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}}
+@media (max-width:600px){
+  .kpis{grid-template-columns:repeat(2,1fr)}.kpi .val{font-size:22px}
+  .live{align-items:flex-start}
+  .bar{grid-template-columns:96px 1fr 48px}
+  section{padding:16px}.tblwrap,.hm{margin:0 -16px;padding:0 16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap top">
+    <div class="brand">
+      <div class="logo"><svg width="30" height="30" viewBox="0 0 32 32"><path d="M8 24V8l16 16V8" stroke="#0054A3" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="3" fill="#FFBD00"/></svg></div>
+      <div>
+        <div class="eyebrow">Thẩm mỹ Như Hoa</div>
+        <h1>TikTok Tracking các bộ phận</h1>
+      </div>
+    </div>
+    <div class="live">
+      <span class="pill"><span class="dot"></span><span id="liveTxt">Đang tải…</span></span>
+      <small id="nextTxt"></small>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="errBox"></div>
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <div class="sh">
+      <h2>Bảng xếp hạng kênh</h2>
+      <span class="hint">Bấm vào tiêu đề cột để sắp xếp · ± so với lần cập nhật trước</span>
+    </div>
+    <div class="tblwrap"><table class="tbl" id="tbl"></table></div>
+  </section>
+
+  <div class="grid2">
+    <section>
+      <div class="sh">
+        <h2>So sánh kênh</h2>
+        <div class="seg" id="metricSeg">
+          <button data-m="followers" aria-pressed="true">Follower</button>
+          <button data-m="hearts" aria-pressed="false">Lượt thích</button>
+          <button data-m="videos" aria-pressed="false">Video</button>
+          <button data-m="posted" aria-pressed="false">Ngày đăng</button>
+        </div>
+      </div>
+      <div class="bars" id="bars"></div>
+    </section>
+    <section>
+      <div class="sh"><h2>Tăng trưởng tổng follower</h2><span class="hint" id="trendHint"></span></div>
+      <div id="trendBox"></div>
+    </section>
+  </div>
+
+  <section>
+    <div class="sh">
+      <h2>Lịch đăng video theo ngày</h2>
+      <span class="hint" id="hmHint">Leader tick ✓ trên Google Sheet</span>
+    </div>
+    <div class="hm" id="hm"></div>
+    <div class="legend">
+      <span><i style="background:var(--cell-on)"></i>Đã đăng video</span>
+      <span><i style="background:var(--cell-off)"></i>Chưa đăng</span>
+      <span><i style="box-shadow:inset 0 0 0 1px var(--line)"></i>Ngày sắp tới</span>
+    </div>
+  </section>
+</main>
+<footer>Nguồn: Google Sheet “2. Tracking TikTok” &amp; trang hồ sơ TikTok công khai · Tự động cập nhật 10:00 (giờ VN) mỗi ngày</footer>
+<div class="tip" id="tip"></div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const fmt = (n) => n == null ? '–' : n >= 1e6 ? (n/1e6).toFixed(1).replace('.0','')+'M' : n >= 1e4 ? (n/1e3).toFixed(1).replace('.0','')+'K' : n.toLocaleString('vi-VN');
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const vnNow = () => new Date(Date.now() + 7*3600e3);
+let DATA, HIST, prevStats = {}, sortKey = 'followers', sortDir = -1, metric = 'followers';
+
+const tip = $('#tip');
+document.addEventListener('mousemove', (e) => {
+  const t = e.target.closest('[data-tip]');
+  if (!t) { tip.style.opacity = 0; return; }
+  tip.innerHTML = t.dataset.tip;
+  const w = tip.offsetWidth;
+  tip.style.left = Math.min(e.clientX + 14, innerWidth - w - 8) + 'px';
+  tip.style.top = (e.clientY + 14) + 'px';
+  tip.style.opacity = 1;
+});
+
+function delta(cur, prev) {
+  if (prev == null || cur == null) return '';
+  const d = cur - prev;
+  if (!d) return '<span class="d" style="color:var(--ink-3)">±0</span>';
+  return `<span class="d ${d > 0 ? 'up' : 'down'}">${d > 0 ? '▲ +' : '▼ '}${fmt(Math.abs(d)) === fmt(d) ? fmt(d) : (d<0?'-':'')+fmt(Math.abs(d))}</span>`;
+}
+const postedCount = (c) => Object.values(c.posts).filter(Boolean).length;
+
+async function load() {
+  const bust = '?t=' + Date.now();
+  try {
+    const [l, h] = await Promise.all([
+      fetch('data/latest.json' + bust).then((r) => r.json()),
+      fetch('data/history.json' + bust).then((r) => r.json()).catch(() => ({})),
+    ]);
+    DATA = l; HIST = h;
+    const days = Object.keys(HIST).sort();
+    const today = DATA.updatedAt && new Date(new Date(DATA.updatedAt).getTime()+7*3600e3).toISOString().slice(0,10);
+    const prevDay = days.filter((d) => d < today).pop();
+    prevStats = prevDay ? HIST[prevDay] : {};
+    $('#errBox').innerHTML = '';
+    render();
+  } catch (e) {
+    $('#errBox').innerHTML = '<div class="err">Không tải được dữ liệu. Trang sẽ tự thử lại sau ít phút.</div>';
+  }
+}
+
+function render() {
+  const chs = DATA.channels;
+  const live = chs.filter((c) => c.profile);
+  const sum = (k) => live.reduce((a, c) => a + (c.profile.stats[k] || 0), 0);
+  const psum = (k) => live.reduce((a, c) => a + (prevStats[c.dept]?.[k] ?? c.profile.stats[k] ?? 0), 0);
+  const hasPrev = Object.keys(prevStats).length > 0;
+  const totalPosts = chs.reduce((a, c) => a + postedCount(c), 0);
+  const followers = sum('followers'), hearts = sum('hearts'), videos = sum('videos');
+
+  const kpi = (lbl, val, sub, cls='') => `<div class="kpi ${cls}"><div class="lbl">${lbl}</div><div class="val">${val}</div><div class="sub">${sub}</div></div>`;
+  const dsub = (k) => hasPrev ? (() => { const d = sum(k) - psum(k); return `<span class="${d>0?'up':d<0?'down':''}">${d>0?'+':''}${fmt(d)}</span> so với hôm trước`; })() : 'Mốc đầu tiên';
+  $('#kpis').innerHTML =
+    kpi('Kênh đang hoạt động', `${live.length}<span style="font-size:16px;color:var(--ink-3)">/${chs.length}</span>`, `${chs.length - live.length} kênh chưa có link`, 'accent') +
+    kpi('Tổng follower', fmt(followers), dsub('followers')) +
+    kpi('Tổng lượt thích', fmt(hearts), dsub('hearts')) +
+    kpi('Tổng video', fmt(videos), dsub('videos')) +
+    kpi('Lượt tick ngày đăng', fmt(totalPosts), `${DATA.dates.length} ngày theo dõi trên Sheet`);
+
+  // live pill
+  const up = new Date(DATA.updatedAt);
+  $('#liveTxt').textContent = 'Cập nhật ' + up.toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh', hour: '2-digit', minute: '2-digit', day: '2-digit', month: '2-digit', year: 'numeric' });
+  tickNext();
+
+  renderTable(); renderBars(); renderTrend(); renderHeatmap();
+}
+
+function tickNext() {
+  const v = vnNow();
+  const next = new Date(Date.UTC(v.getUTCFullYear(), v.getUTCMonth(), v.getUTCDate(), 10));
+  if (v >= next) next.setUTCDate(next.getUTCDate() + 1);
+  const ms = next - v, h = Math.floor(ms/36e5), m = Math.floor(ms%36e5/6e4);
+  $('#nextTxt').textContent = `Lần cập nhật tiếp theo: 10:00 · còn ${h} giờ ${m} phút`;
+}
+
+const COLS = [
+  ['rank', '#'], ['name', 'Kênh / Bộ phận'], ['followers', 'Follower'], ['hearts', 'Lượt thích'],
+  ['videos', 'Video'], ['lpv', 'Thích / video'], ['posted', 'Ngày đăng (Sheet)'],
+];
+const val = (c, k) => k === 'posted' ? postedCount(c) : k === 'lpv' ? (c.profile && c.profile.stats.videos ? c.profile.stats.hearts / c.profile.stats.videos : -1) : k === 'name' ? (c.name || c.dept) : c.profile ? c.profile.stats[k] : -1;
+
+function renderTable() {
+  const rows = [...DATA.channels].sort((a, b) => {
+    if (!!a.profile !== !!b.profile && sortKey !== 'posted' && sortKey !== 'name') return a.profile ? -1 : 1;
+    const x = val(a, sortKey), y = val(b, sortKey);
+    return (typeof x === 'string' ? x.localeCompare(y, 'vi') : x - y) * sortDir;
+  });
+  const statusTag = { 'no-channel': 'Chưa lập kênh', 'not-found': 'Chưa có link kênh', error: 'Lỗi đọc dữ liệu' };
+  $('#tbl').innerHTML = `<thead><tr>${COLS.map(([k, l]) => `<th data-k="${k}" ${k===sortKey?`aria-sort="${sortDir<0?'descending':'ascending'}"`:''}>${l}${k===sortKey?(sortDir<0?' ↓':' ↑'):''}</th>`).join('')}</tr></thead><tbody>` +
+    rows.map((c, i) => {
+      const p = c.profile, s = p?.stats, ps = prevStats[c.dept];
+      const initial = esc((c.name || c.dept).trim().charAt(0).toUpperCase());
+      const av = p?.avatar ? `<img src="${esc(p.avatar)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${initial}'))">` : initial;
+      const title = p ? `<a href="${esc(c.url)}" target="_blank" rel="noopener"><b>${esc(p.nickname)}</b></a><span>@${esc(c.handle)}${c.status==='stale'?' · dữ liệu cũ':''}</span>` : `<b>${esc(c.name || '—')}</b>`;
+      const cell = (k) => s ? `<span class="num">${fmt(s[k])}</span>${delta(s[k], ps?.[k])}` : '–';
+      const lpv = s && s.videos ? fmt(Math.round(s.hearts / s.videos)) : '–';
+      const last = s ? '' : `<span class="tag">${statusTag[c.status] || ''}</span>`;
+      return `<tr class="${p ? '' : 'muted'}"><td class="rank">${p ? i + 1 : ''}</td>
+        <td><div class="ch"><div class="av">${av}</div><div>${title}<span class="dept">${esc(c.dept)}</span></div></div></td>
+        <td>${cell('followers')}</td><td>${cell('hearts')}</td><td>${s ? cell('videos') : last}</td><td>${lpv}</td>
+        <td><span class="num">${postedCount(c)}</span><span class="d" style="color:var(--ink-3)">/${DATA.dates.length} ngày</span></td></tr>`;
+    }).join('') + '</tbody>';
+  $('#tbl').querySelectorAll('th').forEach((th) => th.onclick = () => {
+    const k = th.dataset.k; if (k === 'rank') return;
+    sortDir = sortKey === k ? -sortDir : (k === 'name' ? 1 : -1); sortKey = k; renderTable();
+  });
+}
+
+function renderBars() {
+  const label = { followers: 'follower', hearts: 'lượt thích', videos: 'video', posted: 'ngày đăng' }[metric];
+  const items = DATA.channels.map((c) => ({ c, v: metric === 'posted' ? postedCount(c) : c.profile?.stats[metric] }))
+    .filter((x) => x.v != null).sort((a, b) => b.v - a.v);
+  const max = Math.max(1, ...items.map((x) => x.v));
+  $('#bars').innerHTML = items.length ? items.map(({ c, v }) =>
+    `<div class="bar" data-tip="<b>${esc(c.profile?.nickname || c.name || c.dept)}</b> · ${esc(c.dept)}<br>${v.toLocaleString('vi-VN')} ${label}">
+      <span class="n">${esc(c.dept)}</span><div class="t"><div class="f" style="width:${v / max * 100}%"></div></div><span class="v">${fmt(v)}</span></div>`).join('')
+    : '<div class="hint">Chưa có dữ liệu.</div>';
+}
+$('#metricSeg').onclick = (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  metric = b.dataset.m;
+  $('#metricSeg').querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  renderBars();
+};
+
+function renderTrend() {
+  const days = Object.keys(HIST).sort();
+  const pts = days.map((d) => ({ d, v: Object.values(HIST[d]).reduce((a, s) => a + (s.followers || 0), 0) }));
+  $('#trendHint').textContent = days.length ? `${days.length} ngày dữ liệu` : '';
+  if (pts.length < 2) {
+    $('#trendBox').innerHTML = `<div class="trend-empty"><div>Đã ghi mốc đầu tiên: <b>${fmt(pts[0]?.v ?? 0)} follower</b><br>Biểu đồ tăng trưởng sẽ hiện từ lần cập nhật 10:00 tiếp theo.</div></div>`;
+    return;
+  }
+  const W = 520, H = 220, L = 44, R = 12, T = 14, B = 28;
+  const vs = pts.map((p) => p.v), lo = Math.min(...vs), hi = Math.max(...vs);
+  const pad = Math.max(1, (hi - lo) * 0.15), y0 = Math.max(0, lo - pad), y1 = hi + pad;
+  const x = (i) => L + (W - L - R) * i / (pts.length - 1), y = (v) => T + (H - T - B) * (1 - (v - y0) / (y1 - y0));
+  const ticks = [y0, (y0 + y1) / 2, y1].map(Math.round);
+  const path = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join('');
+  const area = path + `L${x(pts.length - 1)},${H - B}L${L},${H - B}Z`;
+  const lbl = (d) => d.slice(8, 10) + '/' + d.slice(5, 7);
+  const step = Math.ceil(pts.length / 6);
+  $('#trendBox').innerHTML = `<svg id="trend" viewBox="0 0 ${W} ${H}" role="img" aria-label="Tổng follower theo ngày">
+    <defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="var(--brand)" stop-opacity=".22"/><stop offset="1" stop-color="var(--brand)" stop-opacity="0"/></linearGradient></defs>
+    ${ticks.map((t) => `<line x1="${L}" x2="${W - R}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)"/><text x="${L - 8}" y="${y(t) + 4}" text-anchor="end" font-size="11" fill="var(--ink-3)">${fmt(t)}</text>`).join('')}
+    <path d="${area}" fill="url(#g)"/>
+    <path d="${path}" fill="none" stroke="var(--brand)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+    ${pts.map((p, i) => `${i % step === 0 || i === pts.length - 1 ? `<text x="${x(i)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="var(--ink-3)">${lbl(p.d)}</text>` : ''}
+      <circle cx="${x(i)}" cy="${y(p.v)}" r="4" fill="var(--brand)" stroke="var(--surface)" stroke-width="2"/>
+      <rect x="${x(i) - (W - L - R) / pts.length / 2}" y="${T}" width="${(W - L - R) / pts.length}" height="${H - T - B}" fill="transparent" data-tip="${lbl(p.d)}: <b>${p.v.toLocaleString('vi-VN')}</b> follower"/>`).join('')}
+  </svg>`;
+}
+
+function renderHeatmap() {
+  const v = vnNow(), todayKey = String(v.getUTCDate()).padStart(2, '0') + '/' + String(v.getUTCMonth() + 1).padStart(2, '0');
+  const idx = (k) => { const [d, m] = k.split('/').map(Number); return m * 100 + d; };
+  const tIdx = idx(todayKey);
+  const ds = DATA.dates;
+  const colTot = ds.map((d) => DATA.channels.filter((c) => c.posts[d.key]).length);
+  $('#hm').innerHTML = `<table><thead><tr><th></th>${ds.map((d) => `<th class="${d.key === todayKey ? 'today' : ''}">${d.key.slice(0, 2)}<br><span style="font-weight:400">${esc(d.dow)}</span></th>`).join('')}<th>Tổng</th></tr></thead><tbody>` +
+    DATA.channels.map((c) => `<tr><td class="name">${esc(c.dept)}</td>${ds.map((d) => {
+      const on = c.posts[d.key], fut = !on && idx(d.key) > tIdx;
+      return `<td class="c ${on ? 'on' : ''} ${fut ? 'future' : ''}" data-tip="<b>${esc(c.dept)}</b> · ${d.key} (${esc(d.dow)})<br>${on ? '✓ Đã đăng video' : fut ? 'Sắp tới' : 'Chưa đăng'}">${on ? '✓' : ''}</td>`;
+    }).join('')}<td class="tot">${postedCount(c)}</td></tr>`).join('') +
+    `</tbody><tfoot><tr><td class="name">Số bộ phận đăng</td>${colTot.map((t) => `<td>${t}</td>`).join('')}<td></td></tr></tfoot></table>`;
+  $('#hmHint').textContent = `Leader tick ✓ trên Google Sheet · ${DATA.period || 'Tháng 10'}`;
+}
+
+load();
+setInterval(load, 5 * 60 * 1000);   // tự làm mới dữ liệu mỗi 5 phút
+setInterval(() => DATA && tickNext(), 30 * 1000);
+</script>
+</body>
+</html>
