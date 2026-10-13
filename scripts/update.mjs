@@ -153,9 +153,18 @@ async function main() {
   const overrides = await readJson(path.join(ROOT, 'scripts', 'handles.json'), {});
   const prev = await readJson(path.join(DATA_DIR, 'latest.json'), { channels: [] });
   const history = await readJson(path.join(DATA_DIR, 'history.json'), {});
-  const sheet = await readSheet();
   const now = new Date();
-  const today = new Date(now.getTime() + 7 * 3600e3).toISOString().slice(0, 10);
+  const vn = new Date(now.getTime() + 7 * 3600e3);
+  const today = vn.toISOString().slice(0, 10);
+  // Lịch dự phòng chạy nhiều lần trong sáng: nếu hôm nay đã cập nhật sau 10:00 thì bỏ qua
+  if (process.env.SKIP_IF_FRESH && prev.updatedAt) {
+    const last = new Date(new Date(prev.updatedAt).getTime() + 7 * 3600e3);
+    if (last.toISOString().slice(0, 10) === today && last.getUTCHours() >= 10) {
+      console.log('Hôm nay đã cập nhật lúc', last.toISOString().slice(11, 16), '→ bỏ qua');
+      return;
+    }
+  }
+  const sheet = await readSheet();
 
   const out = [];
   for (const ch of sheet.channels) {
