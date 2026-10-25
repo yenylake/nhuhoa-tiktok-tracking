@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T03:30:15.327Z",
+ "updatedAt": "2026-10-25T03:37:01.576Z",
  "period": "",
  "dates": [
   {
@@ -132,14 +132,14 @@
    "profile": {
     "handle": "khu.t.tr.nh",
     "nickname": "Khu tự trị Như Hoa",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/f1152085fdd62a75f01b2b66baa9fc3d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=a460d581&x-expires=1792983600&x-signature=jcPkLh%2FYqatq%2FCaKX5E8lJeqHjk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f1152085fdd62a75f01b2b66baa9fc3d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=9f34a972&x-expires=1793070000&x-signature=EqPK%2FpsGCSaDjhYaMcTbIcFEBJU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     "bio": "Không có ngày nghỉ",
     "verified": false,
     "stats": {
      "followers": 36,
      "following": 60,
-     "hearts": 308,
-     "videos": 9
+     "hearts": 334,
+     "videos": 11
     }
    }
   },
@@ -175,7 +175,7 @@
    },
    "handle": "salesotsoat",
    "url": "https://www.tiktok.com/@salesotsoat",
-   "status": "ok",
+   "status": "stale",
    "profile": {
     "handle": "salesotsoat",
     "nickname": "Sale Sột Soạt",
@@ -222,7 +222,7 @@
    },
    "handle": "nh.hoa.c.g",
    "url": "https://www.tiktok.com/@nh.hoa.c.g",
-   "status": "ok",
+   "status": "stale",
    "profile": {
     "handle": "nh.hoa.c.g",
     "nickname": "Như Hoa Có Gì",
@@ -269,7 +269,7 @@
    },
    "handle": "v.khun.club",
    "url": "https://www.tiktok.com/@v.khun.club",
-   "status": "ok",
+   "status": "stale",
    "profile": {
     "handle": "v.khun.club",
     "nickname": "Vô khuẩn club",
@@ -320,7 +320,7 @@
    "profile": {
     "handle": "dilamcogivuiiiiiiii",
     "nickname": "Đi Làm Có Gì Vui",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/615044058f6fb332b8764b3663e9fd30~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=18ca6a53&x-expires=1792983600&x-signature=8%2FZ9xm4zSgMfbFb03YGN%2FVknX8c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/615044058f6fb332b8764b3663e9fd30~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=922c4eaa&x-expires=1793070000&x-signature=OE5vvJnJNhT242fGORbqayaFrR4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     "bio": "Nụ cười và những điều nhỏ nhắn hằng ngày cùng Như Hoa 💙💛",
     "verified": false,
     "stats": {
@@ -363,7 +363,7 @@
    },
    "handle": "nhapatdilam1",
    "url": "https://www.tiktok.com/@nhapatdilam1",
-   "status": "ok",
+   "status": "stale",
    "profile": {
     "handle": "nhapatdilam1",
     "nickname": "Nhà Pát Đi Làm",
@@ -410,7 +410,7 @@
    },
    "handle": null,
    "url": null,
-   "status": "not-found",
+   "status": "error",
    "profile": null
   },
   {
@@ -449,14 +449,14 @@
    "profile": {
     "handle": "hi.ch.em.da.d",
     "nickname": "Hội chị em da dẻ",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ec05f67c53d6af3cc4a935bd61d311fb~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=b017097b&x-expires=1792983600&x-signature=DbqcbUIUP%2Fyux70js6T7riJlHaU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ec05f67c53d6af3cc4a935bd61d311fb~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=784be3f1&x-expires=1793070000&x-signature=98F1LdEuThB6wF88fbhkrpo2u64%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     "bio": "",
     "verified": false,
     "stats": {
      "followers": 45,
      "following": 68,
-     "hearts": 390,
-     "videos": 17
+     "hearts": 408,
+     "videos": 18
     }
    }
   },
@@ -492,7 +492,7 @@
    },
    "handle": "kenhanhuhoa",
    "url": "https://www.tiktok.com/@kenhanhuhoa",
-   "status": "ok",
+   "status": "stale",
    "profile": {
     "handle": "kenhanhuhoa",
     "nickname": "Bốn cô cân sổ",
