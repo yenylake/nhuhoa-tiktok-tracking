@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T03:37:01.576Z",
+ "updatedAt": "2026-10-26T03:30:16.049Z",
  "period": "",
  "dates": [
   {
@@ -132,7 +132,7 @@
    "profile": {
     "handle": "khu.t.tr.nh",
     "nickname": "Khu tự trị Như Hoa",
-    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f1152085fdd62a75f01b2b66baa9fc3d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=9f34a972&x-expires=1793070000&x-signature=EqPK%2FpsGCSaDjhYaMcTbIcFEBJU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/f1152085fdd62a75f01b2b66baa9fc3d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=8385d3ac&x-expires=1793156400&x-signature=bkL62YgYFBx%2Bb4XRaWZWjBGyIB4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "Không có ngày nghỉ",
     "verified": false,
     "stats": {
@@ -175,17 +175,17 @@
    },
    "handle": "salesotsoat",
    "url": "https://www.tiktok.com/@salesotsoat",
-   "status": "stale",
+   "status": "ok",
    "profile": {
     "handle": "salesotsoat",
     "nickname": "Sale Sột Soạt",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/cb80a5a59d1dd7b270c55a876f28f13d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=8904f122&x-expires=1792983600&x-signature=1Ygz5X6cnGDRP%2FJ0CVl2uCRsxx8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/cb80a5a59d1dd7b270c55a876f28f13d~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=903e13af&x-expires=1793156400&x-signature=lCbpy9uoINUwAk1s8cOSGaanqpc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "",
     "verified": false,
     "stats": {
-     "followers": 47,
-     "following": 133,
-     "hearts": 312,
+     "followers": 49,
+     "following": 134,
+     "hearts": 319,
      "videos": 9
     }
    }
@@ -203,16 +203,16 @@
     "12/10": true,
     "13/10": true,
     "14/10": true,
-    "15/10": false,
-    "16/10": false,
-    "17/10": false,
+    "15/10": true,
+    "16/10": true,
+    "17/10": true,
     "18/10": false,
-    "19/10": false,
-    "20/10": false,
-    "21/10": false,
-    "22/10": false,
-    "23/10": false,
-    "24/10": false,
+    "19/10": true,
+    "20/10": true,
+    "21/10": true,
+    "22/10": true,
+    "23/10": true,
+    "24/10": true,
     "26/10": false,
     "27/10": false,
     "28/10": false,
@@ -222,18 +222,18 @@
    },
    "handle": "nh.hoa.c.g",
    "url": "https://www.tiktok.com/@nh.hoa.c.g",
-   "status": "stale",
+   "status": "ok",
    "profile": {
     "handle": "nh.hoa.c.g",
     "nickname": "Như Hoa Có Gì",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/b37b05b83fc5ae5e1b8e330308752308~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=ad33d6c1&x-expires=1792983600&x-signature=f7jjgT5Ww8MlKQ84z6EPKcFiQ2A%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/b37b05b83fc5ae5e1b8e330308752308~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=733a4407&x-expires=1793156400&x-signature=idiCCp%2B9nA3NrQXvHxJPhFlUunE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "✨Văn phòng vô cùng bất ổn 🤫✨\n@Thẩm mỹ Như Hoa",
     "verified": false,
     "stats": {
-     "followers": 26,
+     "followers": 25,
      "following": 17,
-     "hearts": 214,
-     "videos": 14
+     "hearts": 230,
+     "videos": 15
     }
    }
   },
@@ -269,18 +269,18 @@
    },
    "handle": "v.khun.club",
    "url": "https://www.tiktok.com/@v.khun.club",
-   "status": "stale",
+   "status": "ok",
    "profile": {
     "handle": "v.khun.club",
     "nickname": "Vô khuẩn club",
-    "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/92d172953d53b9b0671ccd55da05f68b~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=0635d44c&x-expires=1792983600&x-signature=eLJ1JeiBoNyvYDI1erHdKEqiDvI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/92d172953d53b9b0671ccd55da05f68b~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=cbaa676f&x-expires=1793156400&x-signature=45Ra1KcoIMaN0b0y4bIeMTTiqq8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "",
     "verified": false,
     "stats": {
      "followers": 49,
      "following": 53,
-     "hearts": 578,
-     "videos": 16
+     "hearts": 621,
+     "videos": 17
     }
    }
   },
@@ -320,7 +320,7 @@
    "profile": {
     "handle": "dilamcogivuiiiiiiii",
     "nickname": "Đi Làm Có Gì Vui",
-    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/615044058f6fb332b8764b3663e9fd30~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=922c4eaa&x-expires=1793070000&x-signature=OE5vvJnJNhT242fGORbqayaFrR4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/615044058f6fb332b8764b3663e9fd30~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=6e6106f8&x-expires=1793156400&x-signature=a8wYFGJjqXFvwbCdK3hhI9owp7c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "Nụ cười và những điều nhỏ nhắn hằng ngày cùng Như Hoa 💙💛",
     "verified": false,
     "stats": {
@@ -363,17 +363,17 @@
    },
    "handle": "nhapatdilam1",
    "url": "https://www.tiktok.com/@nhapatdilam1",
-   "status": "stale",
+   "status": "ok",
    "profile": {
     "handle": "nhapatdilam1",
     "nickname": "Nhà Pát Đi Làm",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/b3c6aea630e47dc51ee817006d0bbb0c~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=e1d39ec1&x-expires=1792983600&x-signature=3n1ee6OB1PB%2B8IqOyLUz9EuVVZE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/b3c6aea630e47dc51ee817006d0bbb0c~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=e6ed3b7f&x-expires=1793156400&x-signature=1aaf2uNohhaGBZBvcT34MH72lls%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "Partnership - ship money đến các chị em",
     "verified": false,
     "stats": {
      "followers": 25,
      "following": 15,
-     "hearts": 137,
+     "hearts": 141,
      "videos": 8
     }
    }
@@ -410,7 +410,7 @@
    },
    "handle": null,
    "url": null,
-   "status": "error",
+   "status": "not-found",
    "profile": null
   },
   {
@@ -449,14 +449,14 @@
    "profile": {
     "handle": "hi.ch.em.da.d",
     "nickname": "Hội chị em da dẻ",
-    "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ec05f67c53d6af3cc4a935bd61d311fb~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=784be3f1&x-expires=1793070000&x-signature=98F1LdEuThB6wF88fbhkrpo2u64%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    "avatar": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ec05f67c53d6af3cc4a935bd61d311fb~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=54422c9b&x-expires=1793156400&x-signature=bLY2Zhu5Bp6nVlYH7o9nxMdCx4k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "",
     "verified": false,
     "stats": {
      "followers": 45,
      "following": 68,
-     "hearts": 408,
-     "videos": 18
+     "hearts": 423,
+     "videos": 19
     }
    }
   },
@@ -492,18 +492,18 @@
    },
    "handle": "kenhanhuhoa",
    "url": "https://www.tiktok.com/@kenhanhuhoa",
-   "status": "stale",
+   "status": "ok",
    "profile": {
     "handle": "kenhanhuhoa",
     "nickname": "Bốn cô cân sổ",
-    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/286d5b03882ab7172b9b1103fa2b0f1e~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=85c420c7&x-expires=1792983600&x-signature=K3wHb2Ff0mwI3KlmKy2Xphg4Co8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+    "avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/286d5b03882ab7172b9b1103fa2b0f1e~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=cf1538fa&x-expires=1793156400&x-signature=G0waT11on0LYBfx9ugjhcr3Wstc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
     "bio": "",
     "verified": false,
     "stats": {
-     "followers": 76,
-     "following": 67,
-     "hearts": 1721,
-     "videos": 14
+     "followers": 84,
+     "following": 66,
+     "hearts": 2066,
+     "videos": 15
     }
    }
   },

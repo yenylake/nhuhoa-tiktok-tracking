@@ -734,5 +734,55 @@
    "hearts": 1721,
    "videos": 14
   }
+ },
+ "2026-10-26": {
+  "Truyền thông MKT": {
+   "followers": 36,
+   "following": 60,
+   "hearts": 334,
+   "videos": 11
+  },
+  "Sales tư vấn": {
+   "followers": 49,
+   "following": 134,
+   "hearts": 319,
+   "videos": 9
+  },
+  "Telesales": {
+   "followers": 25,
+   "following": 17,
+   "hearts": 230,
+   "videos": 15
+  },
+  "Phòng Mổ": {
+   "followers": 49,
+   "following": 53,
+   "hearts": 621,
+   "videos": 17
+  },
+  "CSKH": {
+   "followers": 29,
+   "following": 14,
+   "hearts": 28,
+   "videos": 3
+  },
+  "Partnership": {
+   "followers": 25,
+   "following": 15,
+   "hearts": 141,
+   "videos": 8
+  },
+  "Da liễu": {
+   "followers": 45,
+   "following": 68,
+   "hearts": 423,
+   "videos": 19
+  },
+  "Kế toán": {
+   "followers": 84,
+   "following": 66,
+   "hearts": 2066,
+   "videos": 15
+  }
  }
 }
